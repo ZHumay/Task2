@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+header{
+display: flex;
+flex-direction: row;
+justify-content:space-between ;
+width: 900px;
+height: 90px;
+margin-left: 70px;
+margin-top: 60px;
+}
+.practicebox{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(80, 176, 241);
+    color: white;
+}
+.hwbox{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(50, 51, 52);
+    color: white;
+    
+}
+.section{
+    width: 720px;
+    height: 900px;
+    border: 1px dashed rgb(152, 149, 149);
+    margin-left: 70px;
+    margin-top: -30px;
+    border-radius: 3px;
+}
+.aside{
+    background-color: rgb(245, 245, 245);
+    width: 670px;
+    height: 900px;
+    margin-left: 810px;
+    margin-top: -902px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 4px 4px 12px 8px  rgb(231, 230, 230);
+    width: 470px;
+    height: 750px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstimg{
+    width: 400px;
+    border-radius: 9px;
+    margin-top: 40px;
+}
+
+.secondimg{
+    width: 400px;
+    border-radius: 9px;
+}
+.thirdimg{
+    width: 400px;
+    border-radius: 9px;
+    margin-bottom: 40px;
+}
+.text1{
+    position: absolute;
+    left: 1130px;
+    top: 270px;
+}
+ul{
+    margin-left: -33px;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+li:nth-child(2){
+   color: rgb(79, 77, 77);
+}
+.ul2{
+    list-style: none;
+    margin-left: 63px;
+    margin-top: -51px;
+}
+.text2{
+    position: absolute;
+    left: 1130px;
+    top: 500px;
+}
+.ul1,.ul3,.ul4,.ul5,.ul6{
+    list-style: none;
+}
+.ul4{
+    margin-left: 63px;
+    margin-top: -51px;
+}
+.text3{
+    position: absolute;
+    left: 1120px;
+    top: 730px; 
+}
+.ul6{
+    margin-left: 63px;
+    margin-top: -51px;
+}
